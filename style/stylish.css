@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Raleway&display=swap');
+
+.stylish-container {
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 64px;
+}
+
+.stylish-container section {
+    background-image: url(../img/bg.png), url(../img/stylish.png);
+    width: 1510px;
+    height: 442px;
+    text-align: center;
+}
+
+.stylish-container h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    margin-top: 106px;
+    margin-bottom: 56px;
+}
+
+.stylish-container .separator {
+    margin: 0 auto;
+    width: 170px;
+    border: 0.5px solid #FFF;
+}
+
+.stylish-container h5 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 40px 0 73px 0;
+    opacity: 0.9;
+}
+
+.stylish-container .btn {
+    width: 370px;
+    height: 58px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid #fff;
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .stylish-container {
+        width: 1024px;
+    }
+
+    .stylish-container section {
+        width: 1024px;
+        height: 358px;
+        text-align: center;
+        background-position: 50% 50%;
+        display: block;
+    }
+
+    .stylish-container h2 {
+        height: 120px;
+        font-size: 24px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .stylish-container .separator {
+        width: 142px;
+    }
+
+    .stylish-container h5 {
+        font-size: 14px;
+    }
+
+    .stylish-container .btn {
+        width: 318px;
+    }
+
+    
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .stylish-container {
+        width: 320px;
+    }
+
+    .stylish-container section {
+        width: 320px;
+        height: 358px;
+        text-align: center;
+        background-position: 50% 50%;
+        display: block;
+    }
+
+    .stylish-container h2 {
+        font-size: 24px;
+        margin: 0 auto;
+        display: flex;
+        height: 120px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .stylish-container .separator {
+        width: 134px;
+    }
+
+    .stylish-container h5 {
+        font-size: 14px;
+        margin: 16px 0 66px;
+    }
+
+    .stylish-container .btn {
+        width: 288px;
+        height: 50px;
+    }
+}

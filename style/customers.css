@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&display=swap');
+
+.customers-container * {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.customers-container {
+    background: #fff;
+    margin: 0;
+    height: 630px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.customers-subcontainer {
+    width: 1170px;
+}
+
+.customers-container h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.customers-container .separator {
+    margin: 0 auto;
+    width: 169px;
+    border: 0.5px solid #EC7979;
+}
+
+.customers-container .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 21px;
+    color: #86878B;
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.customers-container .wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 81px;
+}
+
+.customers-container .review {
+    width: 370px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 0 15px;
+    color: #86878B;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    background: #E2E2E2;
+}
+
+.customers-container #triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 20px solid #E2E2E2;
+    position: relative;
+    left: 70px;
+}
+
+.customers-container .clients {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 46px;
+}
+
+.customers-container h4 {
+    font-family: Open Sans, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.customers-container .client {
+    width: 269px;
+    height: 90px;
+    padding: 0 15px;
+    position: relative;
+}
+
+.customers-container .client h4 {
+    position: absolute;
+    top: 0;
+}
+
+.customers-container .client h5 {
+    font-weight: 400;
+    position: absolute;
+    bottom: 0;
+}
+
+.customers-container img {
+    height: 70px;
+}
+#dots {
+    margin: 0 auto;
+    width: 129.49px;
+    height: 9.49px;
+    display: none;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    .customers-container {
+        width: 1024px;
+    }
+    .customers-subcontainer {
+        margin-left: auto;
+        margin-right: auto;
+        width: 992px;
+        height: 509px;
+    }
+
+    .customers-container h2 {
+        height: 120px;
+        font-size: 24px;
+    }
+
+    .customers-container .separator {
+        width: 142px;
+    }
+
+    .customers-container .text {
+        height: 16px;
+        margin-top: 32px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .customers-container .review {
+        width: 317px;
+        font-size: 14px;
+        line-height: 16px;     
+    }
+     #three {
+        width: 319px;
+     }
+
+    .customers-container #triangle-down {
+        border-left: 12.85px solid transparent;
+        border-right: 12.85px solid transparent;
+        border-top: 20px solid #E2E2E2;
+        left: 60px;
+    }
+
+    .customers-container img {
+        height: 63px;
+    }
+
+    .customers-container .client h4 {
+        font-size: 18px;
+        line-height: 25px;
+    }    
+
+    .customers-container .client h5 {
+        font-size: 14px;
+        line-height: 16px;
+
+    }
+
+    .customers-container .client {
+        width: 231,46px;
+        height: 61px;
+    }
+
+    .customers-container article {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .customers-container {
+        display: block;
+        width: 320px;
+    }
+
+    .customers-subcontainer {
+        width: 288px;
+        height: 548.49px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .customers-container h2 {
+        width: 288px;
+        height: 120px;
+        font-size: 26px;
+        text-align: center;
+    }    
+
+    .customers-container .separator {
+        width: 134px;
+    }
+
+    .customers-container article:nth-of-type(odd) {
+        display: none;
+    }
+
+    .customers-container article {
+        width: 288px;
+    }
+
+.customers-container .review {
+    width: 288px;
+    }
+
+    .customers-container .text {
+        text-align: center;
+    }
+
+    #dots {
+        display: initial;
+        position: relative;
+        top: 125px;
+
+    }
+}

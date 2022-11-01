@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway&display=swap');
+
+.tabs-container * {
+    font-size: 18px;
+    font-family: 'Open sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.tabs-container {
+    width: 100%;
+    margin-top: 99px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tabs-subcontainer {
+    height: 540px;
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tabs-subcontainer .tabs {
+    font-family: Open Sans, sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+}
+
+.tabs-subcontainer .tab1,
+.tabs-subcontainer .tab2,
+.tabs-subcontainer .tab3,
+.tabs-subcontainer .tab4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.tabs-subcontainer .tab1 {
+    width: 203px;
+    height: 40px;
+    border: 1px solid #C6CBCD;
+    border-radius: 5px 5px 0 0;
+    border-bottom: none;
+}
+
+.tabs-subcontainer .tab2,
+.tabs-subcontainer .tab3 {
+    width: 184px;
+    height: 40px;
+    border-bottom: 1px solid #C6CBCD;
+}
+
+.tabs-subcontainer .tab4 {
+    width: 600px;
+    height: 40px;
+    border-bottom: 1px solid #C6CBCD;
+}
+
+.tabs-container article {
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    border: 1px solid #C6CBCD;
+    border-top: none;
+}
+
+.tabs-container h3 {
+    font-weight: 700;
+    font-size: 30px;
+    width: 570px;
+    height: 124px;
+    line-height: 124px;
+}
+
+.tabs-container .left-side {
+    margin-left: 100px;
+    margin-right: 0;
+    height: 500px;
+}
+
+.tabs-container .left-side__text {
+    width: 570px;
+    height: 210px;
+    margin-top: 27px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.tabs-container button {
+    border: none;
+    width: 270px;
+    height: 58px;
+    background: #EC7979;
+    margin-top: 27px;
+    color: #fff;
+}
+
+.tabs-container img {
+    margin-left: 30px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .tabs-container {
+        width: 1024px;
+    }
+
+    .tabs-subcontainer {
+        width: 992px;
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .tabs-container .tabs {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .tabs-container article {
+        width: 992px;
+        height: 385px;
+    }
+
+    .tabs-container h3 {
+        width: 482.89px;
+        height: 89px;
+        font-size: 24px;
+        line-height: 33px;
+        display: flex;
+        align-items: center;
+    }
+
+    .tabs-container .left-side__text {
+        width: 482.89px;
+        height: 112px;
+        margin-top: 38px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .tabs-container button {
+        width: 231.87px;
+    }
+
+    .tabs-container .left-side {
+        margin-left: 84.68px;
+    }
+
+    .tabs-container img {
+        width: 398.21px;
+        height: 385px;
+        margin-left: 26.21px;
+    }
+
+    .tabs-container .tab1 {
+        width: 200px;
+    }
+
+    .tabs-container .tab4 {
+        width: 510px;
+    }
+
+    .tabs-container .tab2,
+    .tabs-container .tab3 {
+        width: 141px;
+    }
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .tabs-subcontainer {
+        width: 320px;
+    }
+
+
+    .tabs-container article {
+        width: 288px;
+        height: 429px;
+        margin: 0 auto;
+    }
+
+    .tabs-container img,
+    .tabs-container .tab4 {
+        display: none;
+    }
+
+
+    .tabs-container .tab1,
+    .tabs-container .tab2,
+    .tabs-container .tab3 {
+        width: 96px;
+    }
+
+    .tabs-container .tabs {
+        width: 0 auto;
+    }
+
+    .tabs-container .left-side {
+        align-items: center;
+        text-align: center;
+        width: 100%; 
+        margin-left: auto;
+    }
+
+    .tabs-container h3 {
+        width: 242.74px;
+        height: 112px;
+        font-size: 18px;
+        line-height: 25px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .tabs-container .left-side__text {
+        width: 242.74px;
+        height: 180px;
+        font-size: 13px;
+        line-height: 15px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .tabs-container button {
+        width: 242.74px;
+        height: 50px;
+    }
+
+
+}

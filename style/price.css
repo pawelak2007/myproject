@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700;400&family=Raleway&display=swap');
+
+.price-container * {
+  font-family: "Raleway", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.price-container {
+  width: 100%;
+  margin-top: 160px;
+}
+
+.price-subcontainer {
+  width: 1170px;
+  height: 900px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  background: #F5F5F5;
+  text-align: center;
+}
+
+.price-subcontainer h2 {
+  height: 150px;
+  line-height: 150px;
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: 400;
+  margin-top: 50px;
+}
+
+.price-info-container {
+  height: 530px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.price-info {
+  width: 370px;
+  height: 510px;
+  align-self: flex-end;
+}
+
+section.second {
+  align-self: flex-start;
+}
+
+.price-info h4 {
+  background: #333333;
+  color: #fff;
+  font-family: Open Sans, sans-serif;
+  text-align: center;
+  line-height: 60px;
+  height: 60px;
+  border: 2px solid #F5F5F5;
+  font-size: 24px;
+}
+
+.price-info h3 {
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  background: #333333;
+  color: #fff;
+  border: 2px solid #F5F5F5;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.price-info .subtitle {
+  height: 50px;
+  line-height: 50px;
+  color: rgba(255, 255, 255, 0.5);
+  background: #333333;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  border: 2px solid #F5F5F5;
+}
+
+.price-info-container h5:not(.subtitle) {
+  color: #86878B;
+  background-color: #fff;
+  height: 50px;
+  line-height: 50px;
+  font-weight: 400;
+  border: 2px solid #F5F5F5;
+  text-align: center;
+  font-size: 21px;
+}
+
+.price-subcontainer .separator {
+  border: 0.5px solid #EC7979;
+  margin: 0 auto;
+  width: 170px;
+}
+
+.price-subcontainer .text {
+  margin: 40px 0 59px;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #86878B;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .price-subcontainer {
+    width: 1024px;
+    height: 770px;
+    margin: 0 auto;
+  }
+
+  .price-subcontainer h2 {
+    height: 120px;
+    line-height: 120px;
+    text-transform: uppercase;
+    font-size: 24px;
+  }
+
+  .price-subcontainer .text {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .price-info {
+    width: 317px;
+    height: 452.26px;
+  }
+
+  section.second .price-subcontainer .separator {
+    width: 143px;
+  }
+
+  .price-info-container {
+    height: 470px;
+  }
+
+  .price-info h4 {
+    line-height: 53.21px;
+    height: 53.21px;
+  }
+
+  .price-info h3 {
+    line-height: 88.61px;
+    height: 88.61px;
+  }
+
+  .price-info-container h5:not(.subtitle) {
+    line-height: 44.34px;
+    height: 44.34px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .price-subcontainer {
+    width: 320px;
+    height: 1480px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .price-subcontainer .separator {
+    width: 134px;
+  }
+
+  .price-subcontainer h2 {
+    width: 280px;
+    height: 122px;
+    font-size: 24px;
+    margin: 0 auto;
+  }
+
+  .price-subcontainer .text {
+    font-size: 14px;
+    margin: 24px 0 0;
+  }
+
+  .price-info h4 {
+    width: 288px;
+    font-size: 18px;
+    height: 47.06px;
+    line-height: 47.06px;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  .price-info h3 {
+    width: 288px;
+    font-size: 24px;
+    height: 78.43px;
+    line-height: 78.43px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .price-info {
+    margin-top: 24px;
+  }
+
+  .price-info-container h5:not(.subtitle) {
+    width: 288px;
+    height: 38.22px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .price-info-container .subtitle {
+    font-size: 14px;
+    width: 288px;
+    height: 39.22px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .price-info-container {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+  }
+
+  .price-info {
+    width: 320px;
+  }
+
+
+}
